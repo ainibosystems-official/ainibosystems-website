@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background gradient circle -->
+  <defs>
+    <linearGradient id="niboGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#30C493" />
+      <stop offset="100%" stop-color="#2370BC" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.3)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer circular background -->
+  <circle cx="256" cy="256" r="240" fill="url(#niboGradient)" />
+
+  <!-- Subtle light glow -->
+  <circle cx="256" cy="256" r="220" fill="url(#glow)" opacity="0.2" />
+
+  <!-- NiBo head -->
+  <g fill="none" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head shape -->
+    <path d="M160 250q0-70 96-70t96 70v50q0 70-96 70t-96-70z" fill="none" />
+    <!-- Eyes -->
+    <circle cx="210" cy="250" r="12" fill="white" />
+    <circle cx="302" cy="250" r="12" fill="white" />
+    <!-- Smile -->
+    <path d="M210 285q46 40 92 0" stroke="white" stroke-width="12" fill="none" />
+  </g>
+
+  <!-- Antennas -->
+  <g stroke="white" stroke-width="12" stroke-linecap="round">
+    <!-- Left antenna -->
+    <line x1="180" y1="180" x2="150" y2="150" />
+    <circle cx="145" cy="145" r="8" fill="white" />
+    <!-- Right antenna -->
+    <line x1="332" y1="180" x2="362" y2="150" />
+    <circle cx="367" cy="145" r="8" fill="white" />
+    <!-- Top antenna -->
+    <line x1="256" y1="160" x2="256" y2="110" />
+    <circle cx="256" cy="100" r="10" fill="white" />
+  </g>
+
+  <!-- Soft reflection layer -->
+  <ellipse cx="256" cy="180" rx="120" ry="50" fill="white" opacity="0.05" />
+</svg>

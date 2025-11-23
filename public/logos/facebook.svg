@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="700"
+   height="700"
+   viewBox="0 0 28 28"
+   fill="none"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="facebook-1-svgrepo-com.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="28"
+       height="28"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <circle
+     cx="14"
+     cy="14"
+     r="14"
+     fill="url(#paint0_linear_87_7208)"
+     id="circle1"
+     style="fill:url(#paint0_linear_87_7208)" />
+  <path
+     d="m 19.2137,18.2816 0.6219,-3.9515 H 15.9452 V 11.767 c 0,-1.0813 0.5425,-2.1359 2.285,-2.1359 H 20 V 6.26699 C 20,6.26699 18.3945,6 16.8603,6 13.6548,6 11.5617,7.89294 11.5617,11.3184 v 3.0117 H 8 v 3.9515 h 3.5617 v 9.5529 C 12.2767,27.944 13.0082,28 13.7534,28 c 0.7452,0 1.4768,-0.056 2.1918,-0.1655 v -9.5529 z"
+     fill="#ffffff"
+     id="path1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="paint0_linear_87_7208"
+       x1="16"
+       y1="2"
+       x2="16"
+       y2="29.917"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2,-2)">
+      <stop
+         stop-color="#18ACFE"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#0163E0"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+</svg>

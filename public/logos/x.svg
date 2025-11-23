@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 42 42"
+   xml:space="preserve"
+   sodipodi:docname="x.svg"
+   width="42"
+   height="42"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="19.214286"
+   inkscape:cx="20.973978"
+   inkscape:cy="21"
+   inkscape:window-width="1920"
+   inkscape:window-height="1009"
+   inkscape:window-x="1912"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1"><inkscape:page
+     x="0"
+     y="0"
+     width="42"
+     height="42"
+     id="page1"
+     margin="0"
+     bleed="0" /></sodipodi:namedview>
+<rect
+   style="opacity:1;fill:#ffffff;stroke:#ff0000;stroke-width:1.002;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:0.496815;paint-order:markers stroke fill;fill-opacity:1"
+   id="rect1"
+   width="35.598515"
+   height="36.535316"
+   x="3.2788105"
+   y="2.6022305"
+   rx="10" /><g
+   id="g1"
+   inkscape:export-filename="xlogo.svg"
+   inkscape:export-xdpi="86.85714"
+   inkscape:export-ydpi="86.85714"
+   transform="translate(-4,-4)">
+	<path
+   d="M 39,4 H 11 C 7.134,4 4,7.134 4,11 v 28 c 0,3.866 3.134,7 7,7 h 28 c 3.866,0 7,-3.134 7,-7 V 11 C 46,7.134 42.866,4 39,4 Z M 29.978,37 23.438,27.708 15.5,37 H 13 L 22.308,26.103 13.086,13 h 7.937 L 26.66,21.009 33.5,13 H 36 L 27.789,22.613 37.914,37 Z"
+   id="path1" />
+	<polygon
+   points="16.914,15 31.022,35 34.086,35 19.978,15 "
+   id="polygon1" />
+</g>
+</svg>

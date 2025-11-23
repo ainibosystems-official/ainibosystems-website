@@ -1,0 +1,578 @@
+{
+  "chatbot": {
+    "greeting": "👋 Hallo! Ich bin NiBo — der digitale Assistent von AiNiBo Systems. Wie kann ich dir heute helfen?",
+    "title": "NiBo — AiNiBo Assistent 🤖"
+  },
+  "navbar": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "bots": "Trading Bots",
+    "contact": "Kontakt",
+    "about": "Über uns",
+    "workflow": "Arbeitsablauf",
+    "pricing": "Bots & Preise",
+    "hiring": "Stellenangebote",
+    "login": "Anmelden",
+    "dashboard": "Übersicht",
+    "logout": "Abmelden"
+  },
+  "hero": {
+    "slides": [
+      {
+        "headline": "Automatisierte Lösungen für Ihren Fortschritt.",
+        "subline": "Wir entwickeln KI-Systeme, die denken, handeln und sich weiterentwickeln – damit Ihr Unternehmen smarter wächst, nicht härter arbeitet."
+      },
+      {
+        "headline": "Wenn Intelligenz auf Automatisierung trifft.",
+        "subline": "Effizientere Abläufe, schnellere Umsetzung und messbare Ergebnisse – angetrieben von präziser KI-Technologie."
+      },
+      {
+        "headline": "Hier beginnt Ihre Automatisierung.",
+        "subline": "Von der Idee bis zur Realität – wir verwandeln komplexe Konzepte in funktionierende Systeme, die echte Ergebnisse liefern."
+      }
+    ],
+    "cta1": "Agentur entdecken",
+    "cta2": "Bots ansehen"
+  },
+  "services": {
+    "title": "Was wir erschaffen",
+    "subtitle": "Intelligente Systeme und Automatisierungslösungen – entwickelt, um mitzudenken, zu handeln und mit Ihnen zu wachsen.",
+    "cards": [
+      {
+        "title": "AiNiBo & Individuelle Trading-Bots",
+        "description": "Cleveres Krypto-Trading, individuell umgesetzt. Wir entwickeln moderne Spot- und Futures-Bots für Binance, Bitget und KuCoin – mit Live-Oberflächen, verschlüsseltem API-Zugang und adaptiver Handelslogik, die sich dem Markt anpasst. Automatisieren Sie Ihren Vorsprung."
+      },
+      {
+        "title": "Individuelle & Plattformbasierte Webentwicklung",
+        "description": "Von klaren Portfolios bis zu komplexen Geschäftssystemen – wir gestalten und entwickeln leistungsstarke Websites mit Next.js und Tailwind. Integriert mit Stripe, Supabase und Automatisierungen, die Besucher in Kunden verwandeln. Entwickelt für Sichtbarkeit. Gebaut für Ergebnisse."
+      },
+      {
+        "title": "SaaS-Plattformentwicklung",
+        "description": "Verwandeln Sie Ihre Idee in ein erfolgreiches Abo-Produkt. Wir erstellen sichere, skalierbare SaaS-Plattformen mit Echtzeit-Dashboards, Zahlungsprozessen und automatisiertem Nutzermanagement. Vom Prototyp bis zum fertigen Produkt – alles an einem Ort."
+      },
+      {
+        "title": "KI-Automatisierungen & Intelligente Assistenten",
+        "description": "Geben Sie Ihrem Unternehmen ein digitales Gehirn. Unsere maßgeschneiderten KI-Assistenten übernehmen Support, Analysen und interne Abläufe – trainiert auf Ihren eigenen Unternehmensdaten. Weniger Aufwand. Mehr intelligentes Wachstum."
+      }
+    ],
+    "cta": "Mehr erfahren"
+  },
+  "bots": {
+    "title": "Bots sind unser Herzstück",
+    "subtitle": "Erleben Sie vollautomatisiertes, datengetriebenes Trading mit der AiNiBo Bot-Suite – entwickelt für Präzision, Geschwindigkeit und beständige Ergebnisse.",
+    "cards": [
+      {
+        "title": "Spot-Trading-Bot",
+        "description": "Ihr intelligenter Trader – rund um die Uhr. Führt Strategien in Echtzeit aus, mit adaptiver Trailing-Logik und automatisierten Entscheidungen. Entwickelt für stetiges Wachstum statt Zufall."
+      },
+      {
+        "title": "Futures-Trading-Bot",
+        "description": "Nutzen Sie Marktdynamik wie ein Profi. Der AiNiBo Futures Bot analysiert Bewegungen, steuert Risiken automatisch und optimiert jede Position für maximale Effizienz."
+      },
+      {
+        "title": "Arbitrage-Bot",
+        "description": "Profitieren Sie von Marktunterschieden. Der AiNiBo Arbitrage Bot erkennt Preisabweichungen zwischen Börsen in Millisekunden und nutzt sie, bevor der Markt reagiert."
+      },
+      {
+        "title": "Paper-Trading-Bot",
+        "description": "Testen, bevor Sie investieren. Unser Paper Bot simuliert reale Marktbedingungen mit vollständiger Analyse – ideal zum Ausprobieren neuer Strategien oder zum Lernen."
+      }
+    ],
+    "cta": "Mehr erfahren"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie AiNiBo Systems",
+    "subtitle": "Wir freuen uns, von Ihnen zu hören! Ob Projektanfrage, Idee oder einfach Neugier – lassen Sie uns sprechen und gemeinsam etwas Intelligentes erschaffen.",
+    "chatTitle": "Chat mit AiNiBo",
+    "chatText": "Sprechen Sie direkt mit unserem Chat-Assistenten NiBo – Ihr schneller Einstieg in die Welt der Automatisierung.",
+    "chatButton": "Chat öffnen",
+    "platformTitle": "Über Plattformen arbeiten",
+    "platformText": "Arbeiten Sie lieber über vertrauenswürdige Plattformen? Wir sind dort verifiziert und aktiv.",
+    "emailTitle": "E-Mail an uns",
+    "businessText": "Für geschäftliche oder Partnerschaftsanfragen:",
+    "supportText": "Für technische Fragen oder Support:",
+    "quickFormTitle": "Schnellkontakt-Formular",
+    "quickFormSubtitle": "Erzählen Sie uns kurz, was Sie benötigen – wir melden uns so schnell wie möglich.",
+    "placeholders": {
+      "name": "Ihr Name *",
+      "email": "Ihre E-Mail *",
+      "phone": "Ihre Telefonnummer (optional)",
+      "message": "Ihre Nachricht oder Projektdetails *"
+    },
+    "labels": {
+      "interest": "Wofür interessieren Sie sich? (optional)",
+      "budget": "Ungefähres Budget (optional)",
+      "contactMethod": "Bevorzugte Kontaktmethode (optional)"
+    },
+    "options": {
+      "interest": [
+        "Sonstiges",
+        "KI-Trading-Bot",
+        "Individuelle Website oder Chatbot",
+        "Automatisierungssystem",
+        "Partnerschaft / Zusammenarbeit"
+      ],
+      "budget": [
+        "Sonstiges",
+        "100–800 USD",
+        "800–2000 USD",
+        "2000 USD+"
+      ],
+      "contact": [
+        "Sonstiges",
+        "E-Mail",
+        "Telegram",
+        "Freelancing-Plattform"
+      ]
+    },
+    "submit": "Nachricht senden"
+  },
+  "about": {
+    "title": "Über AiNiBo Systems",
+    "subtitle": "Bei AiNiBo Systems treffen Automatisierung und Intelligenz aufeinander. Wir entwickeln KI-gestützte Trading-Bots, smarte Websites und Automatisierungslösungen, die Wachstum beschleunigen und Prozesse vereinfachen.",
+    "headline": "Automatisiertes Wachstum – mit Sinn entwickelt.",
+    "paragraph1": "AiNiBo Systems entstand aus der Vision, Technologie wieder menschlich zu machen. Gegründet von einem Team aus Entwicklern, Designern und Strategen, verbinden wir künstliche Intelligenz mit klarer Ingenieurskunst. Das Ergebnis: Systeme, die denken, handeln und mit Ihrem Unternehmen wachsen – von Trading-Bots über automatisierte Plattformen bis hin zu lernfähigen Weblösungen.",
+    "paragraph2": "Heute unterstützt AiNiBo Systems Unternehmen, Start-ups und Agenturen dabei, ihre Abläufe zu automatisieren und neue Effizienz zu erreichen. Für uns ist intelligente Automatisierung nicht nur Zukunft – sie ist der nächste logische Schritt in der digitalen Entwicklung."
+  },
+  "pricing": {
+    "title": "Warum keine festen Preise?",
+    "description": "Weil jedes Projekt bei AiNiBo Systems einzigartig ist. Wir glauben nicht an Standardpakete, sondern an Lösungen, die genau zu Ihren Zielen, Zeitplänen und Prozessen passen.\n\nUnser Preis richtet sich nach Umfang, Komplexität und gewünschter Individualisierung. So zahlen Sie nur für den tatsächlichen Mehrwert – klar, fair und nachvollziehbar.\n\nSie entscheiden, wie Sie bezahlen möchten – direkt über unsere Website oder über unsere verifizierten Freelancing-Plattformen. Beide Wege sind sicher, transparent und bequem.",
+    "contactButton": "Kontaktieren Sie uns direkt"
+  },
+  "hiring": {
+    "title": "Sind wir auf der Suche?",
+    "paragraph1": "AiNiBo Systems wächst mit Menschen, die lieben, was sie tun. Wir freuen uns über Kontakt zu kreativen Entwicklern, Designern, KI-Spezialisten, Marketern und Automatisierungsfans, die mit uns gemeinsam Zukunft gestalten möchten.",
+    "paragraph2": "Egal ob Profi mit Erfahrung oder neugieriger Einsteiger – wenn Sie Leidenschaft für Technologie und Weiterentwicklung mitbringen, möchten wir Sie kennenlernen. Füllen Sie das kurze Formular aus, und wir melden uns, wenn es passt.",
+    "formTitle": "Werde Teil des AiNiBo Netzwerks",
+    "formSubtitle": "Erzählen Sie uns von Ihren Fähigkeiten, Ideen oder Ihrer Vision – wir schätzen Initiative, Präzision und Kreativität.",
+    "placeholders": {
+      "name": "Ihr Name *",
+      "email": "Ihre E-Mail *",
+      "portfolio": "Portfolio, GitHub oder LinkedIn (optional)",
+      "message": "Erzählen Sie uns etwas über sich oder Ihre Arbeit *"
+    },
+    "labels": {
+      "area": "Fachbereich (optional)"
+    },
+    "options": {
+      "area": [
+        "Auswählen",
+        "KI / Automatisierungsentwicklung",
+        "Frontend / Webdesign",
+        "Backend / API-Integration",
+        "Marketing / Medien",
+        "Sonstiges"
+      ]
+    },
+    "submit": "Nachricht senden"
+  },
+  "workflowHero": {
+    "title": "Intelligenz mit Präzision geschaffen.",
+    "subtitle1": "Jeder Bot, jedes System, jede Automatisierung – sorgfältig entwickelt, um klüger zu denken, schneller zu lernen und zuverlässig zu funktionieren.",
+    "subtitle2": "Willkommen bei AiNiBo Systems – wo Innovation auf Präzision trifft und Technologie wieder menschlich wird.",
+    "primaryButton": "Unser Prozess",
+    "secondaryButton": "Alle Services ansehen"
+  },
+  "workflowDetails": {
+    "title": "Die Technologie hinter unseren Bots",
+    "subtitle": "Jeder AiNiBo Bot ist ein eigenständiges System – angetrieben von Echtzeit-Marktdaten, adaptiver Logik und präziser Ingenieurskunst. Sie analysieren, reagieren und handeln mit einer Genauigkeit, die kein Mensch erreichen kann.",
+    "bots": [
+      {
+        "title": "Spot-Trading-Bot",
+        "color": "#30C493",
+        "desc": "Der Spot-Bot ist das Fundament des AiNiBo-Ökosystems – eine vollautomatische Handelsmaschine für Spotmärkte wie Binance, Bitget und KuCoin. Er überwacht Preisbewegungen, Orderbuchtiefe und kurzfristige Volatilität in Echtzeit und kombiniert adaptive Trailing-Logik mit dynamischem Balancemanagement.\n\nWird ein Kaufsignal erkannt, passt der Bot automatisch den Trailing-Abstand an aktuelle Marktvolatilität und Handelsvolumen an. Nach dem Einstieg verfolgt er die Höchstpreise und berechnet Ausstiegsniveaus neu, um Gewinne präzise abzusichern. Die integrierte Reset-Logik ermöglicht den Neustart eines Zyklus, sobald sich die Marktstruktur stabilisiert.\n\nAlle Prozesse laufen vollständig automatisiert – von API-Verbindungen und Kapitalallokation bis zur Ergebnisprotokollierung. API-Schlüssel sind AES-256-verschlüsselt, und sämtliche Transaktionen werden im AiNiBo-Dashboard visualisiert.",
+        "images": [
+          "/images/bots/spot-bot-1.svg",
+          "/images/bots/spot-bot-2.svg"
+        ]
+      },
+      {
+        "title": "Futures-Trading-Bot",
+        "color": "#2370BC",
+        "desc": "Entwickelt für Trader, die Geschwindigkeit und Kontrolle schätzen. Der Futures-Bot handelt Long- und Short-Positionen mit adaptivem Hebel und KI-gestütztem Risikomanagement. Er analysiert Marktbewegungen, Finanzierungsraten und Liquidationszonen in Echtzeit und optimiert automatisch die Positionsgröße.\n\nDas modulare Signal-System kombiniert Indikatoren wie EMA, RSI und VWAP mit AiNiBos eigener KI-basierten Sentimentanalyse. So erkennt der Bot Trendwechsel, bevor sie im Chart sichtbar sind.\n\nAlle Parameter – Hebelspanne, Stop-Loss-Logik, maximale Positionen und Risikoprofil – werden zentral im Dashboard gesteuert. Der KI-Kern lernt mit jeder Sitzung und verbessert Strategien kontinuierlich entsprechend Ihrem Handelsstil.",
+        "images": [
+          "/images/bots/futures-bot-1.svg",
+          "/images/bots/futures-bot-2.svg"
+        ]
+      },
+      {
+        "title": "Arbitrage-Bot",
+        "color": "#30C493",
+        "desc": "Der Arbitrage-Bot ist auf Geschwindigkeit und Präzision ausgelegt. Er scannt mehrere Börsen – darunter Binance, Bitget und KuCoin – gleichzeitig über WebSocket-Verbindungen und verarbeitet tausende Preisupdates pro Sekunde. Sobald eine ausreichend große Preisdifferenz erkannt wird, platziert der Bot sofort gegenläufige Orders, um den Gewinn zu sichern.\n\nDie Architektur ermöglicht parallele Orderausführung mit Latenzen unter 20 ms. Alle Operationen werden verschlüsselt protokolliert, und der Bot unterstützt verschiedene Strategien: Direktarbitrage, Dreiecksarbitrage und Cross-Exchange-Handel. API-Schlüssel werden sicher gespeichert und nie im Klartext offengelegt.\n\nEntwickelt für Profis, aber intuitiv genug für ambitionierte Privatanwender, die Geschwindigkeit in einen echten Vorteil verwandeln wollen.",
+        "images": [
+          "/images/bots/arbitrage-bot-1.svg",
+          "/images/bots/arbitrage-bot-2.svg"
+        ]
+      },
+      {
+        "title": "Paper-Trading-Bot",
+        "color": "#2370BC",
+        "desc": "Der Paper-Bot ist die ideale Trainingsplattform. Er spiegelt reale Marktbedingungen in Echtzeit wider, nutzt jedoch virtuelles Kapital, um Strategien ohne Risiko zu testen. Seine Logik ist identisch mit der des Spot- und Futures-Bots – gleiche Algorithmen, gleiche Oberfläche, gleiche Funktionalität.\n\nJede simulierte Transaktion wird erfasst – Einstieg, Ausstieg, Rendite und Drawdown – um Ergebnisse zu analysieren und Strategien zu verfeinern. Backtests und Markt-Replays sind direkt im AiNiBo-Dashboard möglich.\n\nPerfekt für Einsteiger, die sicher lernen möchten, und erfahrene Trader, die ihre Strategien optimieren wollen, bevor sie echtes Kapital einsetzen.",
+        "images": [
+          "/images/bots/paper-bot-1.svg"
+        ],
+        "singleImage": true
+      }
+    ],
+    "videoTitle": "Sehen Sie, wie AiNiBo Bots funktionieren",
+    "services": {
+      "title": "🌐 AiNiBo Automatisierungs- und KI-Lösungen",
+      "description": "AiNiBo Systems steht für intelligente digitale Ökosysteme – Systeme, die Prozesse vereinfachen, Entscheidungen beschleunigen und Wachstum automatisieren. Wir entwickeln maßgeschneiderte Webplattformen, SaaS-Produkte und KI-basierte Automatisierungen, die sich flexibel an Ihr Unternehmen anpassen. Jede Lösung folgt demselben Prinzip: Präzision, Stabilität und stetige Weiterentwicklung durch Daten und Nutzerfeedback.",
+      "cards": [
+        {
+          "title": "Individuelle & Plattformbasierte Webentwicklung",
+          "color": "#30C493",
+          "text": "Wir entwickeln Websites, die mehr leisten als nur gut aussehen. Ob elegante Portfolios, Unternehmensplattformen oder automatisierte Online-Systeme – jedes Projekt ist auf Geschwindigkeit, Sicherheit und Performance ausgelegt.\n\nUnsere Technologie basiert auf **Next.js**, **Tailwind** und **Supabase**, kombiniert mit sicheren Zahlungslösungen wie Stripe oder PayPal. Automatisierte Schnittstellen verbinden Ihr CRM, Ihre E-Mail-Tools und Analyseplattformen – so entsteht ein nahtloses, modernes Websystem.\n\nAlle Seiten sind suchmaschinenoptimiert, mobil angepasst und leicht erweiterbar. Das Ergebnis: ein digitales Fundament, das mit Ihrem Geschäft mitwächst."
+        },
+        {
+          "title": "SaaS-Plattform-Entwicklung",
+          "color": "#2370BC",
+          "text": "Verwandeln Sie Ihre Idee in eine skalierbare Plattform. Wir erstellen maßgeschneiderte SaaS-Lösungen mit **Echtzeit-Dashboards**, **automatischer Abrechnung** und **KI-gestützten Analysen**. Benutzeranmeldung, Cloud-Infrastruktur und modulare APIs werden in einem stabilen Framework vereint.\n\nVom Prototyp bis zur Marktreife übernehmen wir die gesamte Entwicklung – Architektur, Frontend, Backend, Sicherheit und Wartung. Jede Plattform ist so konzipiert, dass sie wächst, ohne an Stabilität zu verlieren.\n\nIhr Vorteil: volle Kontrolle über Ihre Daten und Prozesse – und ein Produkt, das technisch auf dem neuesten Stand ist."
+        },
+        {
+          "title": "KI-Automatisierungen & Assistenten",
+          "color": "#30C493",
+          "text": "Wir geben Unternehmen ein digitales Gedächtnis – und Intelligenz, die wirklich arbeitet. Unsere KI-Assistenten übernehmen Support, Datenanalyse, Reporting und interne Abläufe, trainiert auf Ihren Geschäftsprozessen und Kommunikationsstil.\n\nMit Technologien wie **OpenAI**, **LangChain** und individuellen Datenschnittstellen erschaffen wir smarte Systeme, die Fragen beantworten, Aufgaben ausführen und Entscheidungen vorbereiten. Die Integration erfolgt sicher, DSGVO-konform und nachvollziehbar.\n\nDas Ziel: weniger Routinearbeit, mehr Fokus auf strategische Aufgaben – und ein Unternehmen, das von selbst intelligenter wird."
+        }
+      ]
+    }
+  },
+  "workflowSteps": {
+    "title": "Unser Workflow",
+    "subtitle": "Wo Logik auf Kreativität trifft – von der Idee bis zur intelligenten Automatisierung.",
+    "steps": [
+      {
+        "title": "Ihre Vision verstehen",
+        "text": "Am Anfang steht das Zuhören. Wir analysieren Ihre Ziele, Herausforderungen und Zielgruppen, um genau zu verstehen, welche Wirkung Sie erzielen möchten. Diese Erkenntnisse bilden die Grundlage für alle technischen und kreativen Entscheidungen, die folgen."
+      },
+      {
+        "title": "Intelligenz gestalten",
+        "text": "Bevor wir programmieren, entwickeln wir die Denkweise Ihres Systems. Wir entwerfen logische Abläufe, Automatisierungspfade und intuitive Benutzeroberflächen, die Technologie menschlich und greifbar machen. Design und Funktion verschmelzen zu einem klaren Ganzen."
+      },
+      {
+        "title": "Das System entwickeln",
+        "text": "Jetzt wird aus Konzepten Code. Mit modularen Frameworks, Echtzeit-APIs und sicherer Cloud-Architektur entsteht Ihr automatisiertes System. Jede Komponente wird gezielt auf Leistung, Skalierbarkeit und Stabilität ausgelegt – ohne Kompromisse."
+      },
+      {
+        "title": "Optimierung & Weiterentwicklung",
+        "text": "Nach dem Aufbau beginnt der Lernprozess. Wir überwachen die Systemleistung, analysieren Daten und optimieren Prozesse, damit alles schneller, präziser und effizienter läuft. Jedes AiNiBo-System verbessert sich mit der Zeit – Schritt für Schritt."
+      },
+      {
+        "title": "Erfolg skalieren",
+        "text": "Nach dem Launch begleiten wir Sie weiter. Ob einzelne Automatisierung oder komplette SaaS-Plattform – wir erweitern Ihre digitale Infrastruktur nachhaltig und sicher. Wachstum verstehen wir nicht als Ziel, sondern als kontinuierliche Entwicklung."
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum AiNiBo Systems?",
+    "subtitle": "Weil echte Automatisierung mehr bedeutet als Effizienz – sie steht für Vertrauen, Intelligenz und Systeme, die sich mit Ihnen weiterentwickeln.",
+    "features": [
+      {
+        "title": "KI-gestützte Entwicklung",
+        "desc": "Jede AiNiBo-Lösung basiert auf echter Intelligenz. Unsere Bots und Systeme nutzen GPT-Modelle und adaptive Lernlogiken, um sich ständig anzupassen und zu verbessern – kein starres Skript, sondern ein System, das mitdenkt."
+      },
+      {
+        "title": "Sicherheit von Anfang an",
+        "desc": "Datenschutz ist kein Zusatz, sondern Standard. Alle Schnittstellen sind verschlüsselt, API-Zugriffe werden tokenbasiert verwaltet und die Infrastruktur ist vollständig DSGVO-konform. Ihre Daten bleiben ausschließlich Ihre Daten."
+      },
+      {
+        "title": "Kontinuierlicher Cloud-Betrieb",
+        "desc": "Unsere Systeme laufen rund um die Uhr in der Cloud – überwacht, synchronisiert und regelmäßig optimiert. So bleibt Ihre Automatisierung stabil und zuverlässig, selbst wenn Sie offline sind."
+      },
+      {
+        "title": "Partnerschaftliche Zusammenarbeit",
+        "desc": "Wir verstehen Projekte als langfristige Kooperation. Von der ersten Idee bis zur kontinuierlichen Weiterentwicklung bleiben wir an Ihrer Seite – transparent, kommunikativ und lösungsorientiert."
+      },
+      {
+        "title": "Erprobt unter Realbedingungen",
+        "desc": "Alle AiNiBo-Systeme werden in realen Umgebungen getestet – von Handelsalgorithmen bis zu SaaS-Plattformen. Nur stabile, getestete Lösungen gehen live."
+      },
+      {
+        "title": "Individuell & exklusiv",
+        "desc": "Jede Lösung ist ein Unikat. Quellcode, Design und Architektur werden individuell für Ihr Unternehmen entwickelt – keine Vorlagen, kein geteilter Code."
+      }
+    ],
+    "stats": [
+      {
+        "value": "99,9%",
+        "label": "Verfügbarkeit & Zuverlässigkeit"
+      },
+      {
+        "value": "100%",
+        "label": "Datenverschlüsselung"
+      },
+      {
+        "value": "Global",
+        "label": "Kunden & Partner"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit für automatisiertes Wachstum?",
+    "subtitle1": "Lassen Sie AiNiBo Systems Ihre nächste intelligente Lösung entwickeln – von Trading-Bots bis hin zu kompletten Automatisierungsplattformen.",
+    "subtitle2": "Präzision. Stabilität. Fortschritt – in einem System vereint.",
+    "button": "Jetzt Kontakt aufnehmen"
+  },
+  "checkout": {
+    "orderSummary": {
+      "title": "Bestellübersicht",
+      "project": "Individuelles Projekt",
+      "reference": "Referenznummer",
+      "total": "Gesamt"
+    },
+    "payment": {
+      "title": "Bevorzugte Zahlungsmethode",
+      "button": "Sicher bezahlen",
+      "help": "Hilfe erforderlich?",
+      "secure": "Alle Zahlungen sind verschlüsselt und werden über geprüfte Zahlungsanbieter abgewickelt."
+    },
+    "bank": {
+      "title": "Banküberweisung",
+      "accountName": "Kontoinhaber",
+      "bank": "Bank",
+      "reference": "Verwendungszweck",
+      "notice": "Nach der Überweisung senden Sie bitte den Beleg an contact@ainibosystems.com."
+    },
+    "back": "Zurück zu Preisen"
+  },
+  "checkoutResult": {
+    "titleSuccess": "Zahlung erfolgreich!",
+    "messageSuccess": "Vielen Dank für deinen Kauf. Du erhältst in Kürze eine E-Mail-Bestätigung mit den Bestelldetails.",
+    "titleFailed": "Zahlung fehlgeschlagen",
+    "messageFailed": "Leider konnte deine Zahlung nicht verarbeitet werden. Bitte versuche es erneut oder kontaktiere unseren Support.",
+    "backHome": "Zur Startseite",
+    "needHelp": "Brauchst du Hilfe?",
+    "contact": "Kontaktiere uns"
+  },
+  "cookies": {
+    "bannerTitle": "Wir respektieren Ihre Privatsphäre",
+    "bannerText": "Wir verwenden Cookies, um Ihr Nutzungserlebnis zu verbessern, Inhalte zu personalisieren, unseren Datenverkehr zu analysieren und unsere Dienste zu optimieren. Sie können auswählen, welche Cookies Sie akzeptieren möchten.",
+    "acceptAll": "Alle akzeptieren",
+    "essentialOnly": "Nur notwendige Cookies",
+    "rejectAll": "Alle ablehnen",
+    "settings": "Cookie-Einstellungen",
+    "reset": "Cookie-Präferenzen zurücksetzen",
+    "consentAccepted": "Sie haben alle Cookies akzeptiert.",
+    "consentEssential": "Sie verwenden nur notwendige Cookies.",
+    "consentRejected": "Sie haben alle optionalen Cookies abgelehnt.",
+    "policyIntro": "Diese Cookie-Richtlinie erklärt, was Cookies sind, wie wir sie verwenden und wie Sie Ihre Präferenzen verwalten können.",
+    "functionalCookies": "Funktionale Cookies sind erforderlich, damit die Website ordnungsgemäß funktioniert, und können nicht deaktiviert werden.",
+    "analyticsCookies": "Analyse-Cookies helfen uns zu verstehen, wie Besucher unsere Website nutzen.",
+    "marketingCookies": "Marketing-Cookies werden verwendet, um personalisierte Inhalte und Werbung bereitzustellen."
+  },
+  "legal": {
+    "privacyTitle": "Datenschutzerklärung",
+    "privacyIntro": "Bei AiNiBo Systems respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen. Diese Datenschutzerklärung erklärt, wie wir Ihre Daten erfassen, verwenden und sichern.",
+    "privacyUse": "Wir verwenden Ihre Daten, um unsere Dienste zu betreiben, Zahlungen zu verarbeiten, mit Ihnen zu kommunizieren und unsere Plattform zu verbessern.",
+    "privacyRights": "Sie haben das Recht, Ihre persönlichen Daten jederzeit einzusehen, zu berichtigen oder löschen zu lassen, indem Sie uns kontaktieren.",
+    "cookiesTitle": "Cookie-Richtlinie",
+    "cookiesIntro": "Diese Richtlinie erklärt, wie AiNiBo Systems Cookies und ähnliche Technologien auf unserer Website verwendet.",
+    "termsSubtitel": "Nutzungsbedingungen & Haftungsausschluss",
+    "termsIntro": "Durch die Nutzung unserer Website und Dienste stimmen Sie unseren Nutzungsbedingungen und dem folgenden Haftungsausschluss zu.",
+    "termsLiability": "AiNiBo Systems übernimmt keine Haftung für finanzielle Verluste oder Schäden, die durch die Nutzung unserer Automatisierungstools oder Bots entstehen.",
+    "termsUse": "Unsere Produkte dienen ausschließlich Informations- und Bildungszwecken und stellen keine Finanzberatung dar.",
+    "cookiesSection1Title": "Was sind Cookies",
+    "cookiesSection1Text": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, um sich Präferenzen zu merken und ein besseres Nutzererlebnis zu bieten.",
+    "cookiesSection2Title": "Arten von Cookies, die wir verwenden",
+    "cookiesEssential": "Notwendig: Erforderlich für die Funktionalität der Website (Login, Sitzung).",
+    "cookiesAnalytics": "Analyse: Wird verwendet, um Leistung und Nutzung zu messen.",
+    "cookiesFunctional": "Funktional: Unterstützt Chat- und Personalisierungsfunktionen.",
+    "cookiesMarketing": "Marketing: Zahlungs- und Empfehlungsverfolgung (Stripe).",
+    "cookiesSection3Title": "Verwaltung Ihrer Präferenzen",
+    "cookiesSection3Text": "Sie können Ihre Cookie-Einstellungen jederzeit über den Link 'Cookie-Einstellungen' im Footer ändern oder Cookies über Ihren Browser löschen.",
+    "termsTitle": "Nutzungsbedingungen",
+    "lastUpdated": "Letzte Aktualisierung: Oktober 2025",
+    "termsSection1Title": "Überblick",
+    "termsSection1Text": "Diese Bedingungen regeln Ihre Nutzung der digitalen Dienste von AiNiBo Systems Ltd., einschließlich KI-Assistenten, Automatisierungstools und Handelssystemen. Durch den Zugriff auf oder den Kauf unserer Dienste stimmen Sie diesen Bedingungen zu.",
+    "termsSection2Title": "Zahlungen & Rückerstattungen",
+    "termsSection2Text": "Zahlungen werden sicher über Stripe abgewickelt. Digitale Dienste werden elektronisch bereitgestellt. Rückerstattungen erfolgen nur gemäß den EU-Verbraucherschutzgesetzen.",
+    "termsSection3Title": "Geistiges Eigentum",
+    "termsSection3Text": "Alle Codes, Designs und digitalen Inhalte bleiben Eigentum von AiNiBo Systems Ltd. Kunden erhalten eine eingeschränkte, nicht übertragbare Lizenz zur persönlichen oder kommerziellen Nutzung gemäß Vereinbarung.",
+    "termsSection4Title": "Verbotene Nutzungen",
+    "termsSection4Text": "Benutzer dürfen unsere Produkte nicht weiterverkaufen, missbrauchen oder für illegale Aktivitäten verwenden, einschließlich automatisierten Handels ohne Einhaltung der Börsenbestimmungen.",
+    "termsSection5Title": "Haftungsausschluss & Haftungsbeschränkung",
+    "termsSection5Text": "Unsere KI-Assistenten, Automatisierungssysteme und Handelsbots werden „wie besehen“ bereitgestellt. Sie stellen keine Finanz-, Investitions- oder psychologische Beratung dar. Ergebnisse hängen von Benutzereingaben, externen APIs und Marktbedingungen ab. AiNiBo Systems Ltd. haftet nicht für Verluste, Datenfehler oder externe Störungen.",
+    "termsSection5Extra": "Durch die Nutzung unserer Dienste erkennen Sie an, dass Automatisierungs- und KI-Tools betriebliche Risiken beinhalten. Sie sind allein verantwortlich für die Anwendung und Interpretation automatisierter Ergebnisse.",
+    "termsSection6Title": "Anwendbares Recht",
+    "termsSection6Text": "Diese Bedingungen unterliegen dem bulgarischen und EU-Recht. Streitigkeiten werden vor den zuständigen bulgarischen Gerichten beigelegt.",
+    "termsSection7Title": "Kontakt",
+    "termsSection7Text": "Für rechtliche Anfragen kontaktieren Sie uns bitte unter",
+    "privacyPageTitle": "Datenschutzerklärung",
+    "legalLastUpdated": "Letzte Aktualisierung: Oktober 2025",
+    "privacyPageIntro": "Diese Datenschutzerklärung erläutert, wie AiNiBo Systems Ltd. personenbezogene Daten sammelt, verwendet und schützt.",
+    "privacySection1Title": "Datenverantwortlicher",
+    "privacySection1Text": "AiNiBo Systems Ltd. — Dorf Tsarkva, Gemeinde Balchik, Region Dobrich, Bulgarien. E-Mail: info@ainibosystems.com.",
+    "privacySection2Title": "Von uns erhobene Daten",
+    "privacySection2a": "Kontaktdaten (Name, E-Mail, Nachrichten).",
+    "privacySection2b": "Kontodaten (Login, Präferenzen, Sprache).",
+    "privacySection2c": "Zahlungsdaten (sicher verarbeitet über Stripe).",
+    "privacySection2d": "Technische und Nutzungsdaten (IP, Browser, Sitzung).",
+    "privacySection2e": "Chatbot-Interaktionsdaten (Texteingabe, Sitzungs-ID).",
+    "privacySection3Title": "Zweck der Verarbeitung",
+    "privacySection3a": "Bereitstellung und Verbesserung unserer Dienste.",
+    "privacySection3b": "Abwicklung von Zahlungen und Abonnements.",
+    "privacySection3c": "Beantwortung Ihrer Anfragen.",
+    "privacySection3d": "Einhaltung gesetzlicher und steuerlicher Verpflichtungen.",
+    "privacySection4Title": "Rechtsgrundlagen",
+    "privacySection4Text": "Wir verarbeiten Ihre Daten auf Grundlage von Einwilligung, Vertragserfüllung, gesetzlichen Pflichten oder berechtigtem Interesse gemäß Artikel 6 der DSGVO.",
+    "privacySection5Title": "Drittanbieter-Dienste",
+    "privacySection5a": "Stripe — sichere Zahlungen.",
+    "privacySection5b": "Supabase — Authentifizierung und Datenbank.",
+    "privacySection5c": "OpenAI API — Chatbot-Antworten.",
+    "privacySection5d": "Vercel — Hosting und Analysen.",
+    "privacySection6Title": "Ihre Rechte",
+    "privacySection6a": "Zugang, Berichtigung und Löschung von Daten.",
+    "privacySection6b": "Widerruf der Einwilligung.",
+    "privacySection6c": "Datenübertragbarkeit.",
+    "privacySection6d": "Beschwerden bei der bulgarischen Datenschutzkommission."
+  },
+  "footer": {
+    "tagline": "Automatisierte Lösungen.",
+    "followUs": "Folgen Sie uns",
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Richtlinie",
+    "terms": "Nutzungsbedingungen & Haftungsausschluss",
+    "settings": "Cookie-Einstellungen",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "dashboard": {
+    "loading": "Dein Dashboard wird geladen...",
+    "welcome": "Willkommen zurück 👋",
+    "intro": "Du bist jetzt in deinem AiNiBo Systems-Dashboard angemeldet. Hier kannst du deine Trading-Bots verwalten, dein Abonnement einsehen, Rechnungen abrufen und deine Sicherheitseinstellungen anpassen – alles an einem Ort.",
+    "activeBots": "Aktive Bots",
+    "activeBotsDesc": "Verbinde dein Konto, um deine aktiven Bots zu sehen oder neue zu starten.",
+    "subscription": "Abonnementplan",
+    "subscriptionDesc": "Upgrade bald, um AiNiBo Premium-Automatisierungen und erweiterte Funktionen freizuschalten.",
+    "status": "Kontostatus",
+    "statusActive": "Aktiv",
+    "statusDesc": "Dein Konto ist verifiziert und mit AiNiBo Systems verbunden."
+  },
+  "billing": {
+    "title": "Abrechnung & Abonnement",
+    "description": "Verwalte deine Zahlungen, Rechnungen und deinen Abonnementplan sicher über das integrierte Stripe-Zahlungssystem von AiNiBo.",
+    "currentPlan": "Aktueller Plan",
+    "freeTier": "Kostenlose Version",
+    "upgradeMessage": "Upgrade durchführen, um Premium-Funktionen und erweiterte Analysen freizuschalten."
+  },
+  "security": {
+    "title": "Sicherheit",
+    "description": "Verwalte dein Passwort, verbundene Konten und Datenschutzeinstellungen, um deinen AiNiBo Systems Account zu schützen.",
+    "changePassword": "Passwort ändern",
+    "deleteAccount": "Mein Konto löschen",
+    "noEmail": "❌ Für dieses Konto ist keine E-Mail-Adresse vorhanden.",
+    "resetSent": "📨 Link zum Zurücksetzen des Passworts wurde gesendet! Es kann etwas dauern. (Überprüfe auch deinen Spam-Ordner)",
+    "resetError": "❌ E-Mail zum Zurücksetzen konnte nicht gesendet werden. Bitte versuche es später erneut.",
+    "passwordMissing": "Bitte gib dein Passwort zweimal ein.",
+    "passwordMismatch": "Die Passwörter stimmen nicht überein.",
+    "mustConfirmDelete": "Du musst bestätigen, dass dir bewusst ist, dass diese Aktion dauerhaft ist.",
+    "noActiveUser": "Kein aktiver Benutzer gefunden.",
+    "incorrectPassword": "Falsches Passwort. Bitte versuche es erneut.",
+    "deleteError": "❌ Konto konnte nicht gelöscht werden.",
+    "deleteSuccess": "✅ Konto erfolgreich gelöscht. Weiterleitung...",
+    "confirmDeletionTitle": "Löschen des Kontos bestätigen",
+    "confirmDeletionText": "Gib dein Passwort zweimal ein, um dein AiNiBo Systems Konto dauerhaft zu löschen.",
+    "password": "Passwort",
+    "repeatPassword": "Passwort wiederholen",
+    "confirmCheckbox": "Ich verstehe, dass diese Aktion dauerhaft ist und nicht rückgängig gemacht werden kann.",
+    "cancel": "Abbrechen",
+    "deleting": "Lösche...",
+    "confirmDelete": "Löschen bestätigen",
+    "setPassword": {
+      "button": "Passwort festlegen",
+      "title": "Kontopasswort erstellen",
+      "text": "Da du dich mit Google angemeldet hast, besitzt dein Konto noch kein Passwort. Lege jetzt ein Passwort fest, um das Löschen des Kontos, E-Mail-Änderungen und alle Sicherheitsfunktionen zu aktivieren.",
+      "newPassword": "Neues Passwort",
+      "repeatPassword": "Passwort wiederholen",
+      "fillBoth": "Bitte fülle beide Felder aus.",
+      "mismatch": "Die Passwörter stimmen nicht überein.",
+      "short": "Das Passwort muss mindestens 10 Zeichen lang sein.",
+      "error": "❌ Passwort konnte nicht festgelegt werden. Bitte versuche es erneut.",
+      "success": "✅ Passwort wurde erfolgreich erstellt!"
+    }
+  },
+  "myBots": {
+    "title": "Meine Bots",
+    "description": "Hier sehen Sie Ihre gekauften Bots, Lizenzen und Aktivierungsdetails, sobald Ihr Konto verbunden ist.",
+    "noBots": "Bitte besuchen Sie",
+    "linkText": "/bots-and-prices",
+    "linkSuffix": "um einen zu kaufen."
+  },
+  "dashboardLayout": {
+    "loading": "Dashboard wird geladen...",
+    "overview": "Übersicht",
+    "myBots": "Meine Bots",
+    "billing": "Abrechnung",
+    "security": "Sicherheit",
+    "loggedInAs": "Angemeldet als",
+    "logout": "Abmelden"
+  },
+  "resetPassword": {
+    "title": "Passwort zurücksetzen",
+    "subtitle": "Gib dein neues Passwort unten ein, um fortzufahren.",
+    "newPassword": "Neues Passwort",
+    "repeatPassword": "Neues Passwort wiederholen",
+    "button": "Passwort aktualisieren",
+    "updating": "Aktualisiere...",
+    "fillBoth": "⚠️ Bitte fülle beide Passwortfelder aus.",
+    "mismatch": "❌ Passwörter stimmen nicht überein.",
+    "error": "❌ Passwort konnte nicht zurückgesetzt werden. Bitte fordere einen neuen Link an. (Hinweis: Das Passwort muss mindestens 10 Zeichen lang sein.)",
+    "success": "✅ Passwort erfolgreich geändert! Weiterleitung zum Login..."
+  },
+  "login": {
+    "loading": "Sitzung wird geladen...",
+    "welcome": "Willkommen bei AiNiBo Systems",
+    "google": "Mit Google fortfahren",
+    "facebook": "Mit Facebook fortfahren",
+    "orEmail": "oder nutze deine E-Mail",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "invalidCredentials": "Ungültige E-Mail oder Passwort. Dieses Konto wurde möglicherweise gelöscht oder existiert nicht.",
+    "button": "Anmelden",
+    "noAccount": "Noch kein Konto?",
+    "register": "Registrieren",
+    "registerCTA": "Neues Konto erstellen →"
+  },
+  "register": {
+    "title": "Erstelle dein AiNiBo Systems Konto",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "repeatPassword": "Passwort wiederholen",
+    "agreePrefix": "Ich stimme den",
+    "terms": "Geschäftsbedingungen",
+    "and": "und",
+    "privacy": "Datenschutzrichtlinien",
+    "mismatch": "Passwörter stimmen nicht überein. Bitte erneut versuchen.",
+    "mustAgree": "Du musst den Geschäftsbedingungen zustimmen, um ein Konto zu erstellen.",
+    "success": "✅ Registrierung erfolgreich! Bitte überprüfe deine E-Mails, um dein Konto zu bestätigen. Falls du keine E-Mail siehst, prüfe den Spam-Ordner.",
+    "creating": "Konto wird erstellt...",
+    "button": "Registrieren",
+    "haveAccount": "Bereits ein Konto?",
+    "login": "Anmelden"
+  },
+  "dataDeletion": {
+    "title": "Anfrage zur Datenlöschung",
+    "description": "AiNiBo Systems speichert keine personenbezogenen Daten direkt auf unseren Servern. Wenn du dich jedoch über Facebook angemeldet hast, kannst du die Löschung der zugehörigen Kontodaten beantragen, indem du uns kontaktierst unter",
+    "timeline": "Alle Löschanfragen werden innerhalb von 7 Werktagen bearbeitet."
+  },
+  "botsAndPrices": {
+    "title": "Warum keine festen Preise bei individuellen Projekten?",
+    "description": "Weil jedes Automatisierungsprojekt einzigartig ist. Unser Ziel ist es, deine genauen Anforderungen zu erfüllen – nicht, dich in ein Standardpaket zu zwängen.\n\nJede Lösung wird individuell nach deinen Zielen, Integrationen und der technischen Komplexität entwickelt. Der Preis richtet sich fair nach dem Umfang deines Projekts, sodass du nur für das bezahlst, was dir echten Mehrwert bringt.\n\nDu kannst ein Angebot direkt über unsere Website anfordern oder über unsere verifizierten Freelancer-Plattformen zusammenarbeiten. Beide Wege sind sicher, transparent und flexibel.",
+    "contactButton": "Kontakt aufnehmen",
+    "buyButton": "Demnächst verfügbar",
+    "cards": [
+      {
+        "title": "Starter-Bot",
+        "description": "Ideal für Einsteiger. Einfache Einrichtung, intelligente Trailing-Logik und stabile Leistung bei geringem Risiko."
+      },
+      {
+        "title": "Fortgeschrittener Bot",
+        "description": "Ausgewogene Automatisierung für aktive Trader. Mit dynamischer Logik und anpassbarem Handelsmanagement."
+      },
+      {
+        "title": "Pro-Bot",
+        "description": "Vollständige KI-Handelskontrolle mit adaptiven Entscheidungen und Multi-Asset-Management – unser leistungsstärkstes Paket."
+      }
+    ]
+  }
+}
+
