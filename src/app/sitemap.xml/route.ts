@@ -28,24 +28,24 @@ export async function GET(request: Request) {
       { loc: `${base}/bg/are-we-hiring`, changefreq: "monthly", priority: "0.8" },
       { loc: `${base}/de/are-we-hiring`, changefreq: "monthly", priority: "0.8" },
 
-      // 💳 Pre-checkout pages
-      { loc: `${base}/en/pre-checkout`, changefreq: "monthly", priority: "0.7" },
-      { loc: `${base}/bg/pre-checkout`, changefreq: "monthly", priority: "0.7" },
-      { loc: `${base}/de/pre-checkout`, changefreq: "monthly", priority: "0.7" },
+      // 🤖 Bots & Pricing pages
+      { loc: `${base}/en/bots-and-pricing`, changefreq: "weekly", priority: "0.95" },
+      { loc: `${base}/bg/bots-and-pricing`, changefreq: "weekly", priority: "0.95" },
+      { loc: `${base}/de/bots-and-pricing`, changefreq: "weekly", priority: "0.95" },
     ];
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
-  .map(
-    (u) => `<url>
+        .map(
+          (u) => `<url>
   <loc>${u.loc}</loc>
   <lastmod>${lastmod}</lastmod>
   <changefreq>${u.changefreq}</changefreq>
   <priority>${u.priority}</priority>
 </url>`
-  )
-  .join("\n")}
+        )
+        .join("\n")}
 </urlset>`;
 
     return new NextResponse(xml, {

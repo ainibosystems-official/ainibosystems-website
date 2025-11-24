@@ -80,10 +80,11 @@ export default function BotsAndPricesPage() {
 
               <div className="relative z-10 flex flex-col flex-grow justify-between">
                 <div>
-                  <h3 className="text-3xl font-semibold bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent mb-4">
+                  <h3 className="text-4xl md:text-4xl font-semibold bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent mb-4">
                     {card.title}
                   </h3>
-                  <p className="text-gray-200 text-lg md:text-xl leading-relaxed font-medium mb-6">
+
+                  <p className="text-gray-200 text-2xl md:text-xl leading-relaxed font-medium mb-6">
                     {card.description}
                   </p>
                 </div>

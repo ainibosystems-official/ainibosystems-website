@@ -78,7 +78,8 @@
         "description": "Testen, bevor Sie investieren. Unser Paper Bot simuliert reale Marktbedingungen mit vollständiger Analyse – ideal zum Ausprobieren neuer Strategien oder zum Lernen."
       }
     ],
-    "cta": "Mehr erfahren"
+    "cta": "Mehr erfahren",
+    "ctaPricing": "Preise ansehen"
   },
   "contact": {
     "title": "Kontaktieren Sie AiNiBo Systems",
@@ -214,6 +215,7 @@
         "singleImage": true
       }
     ],
+    "ctaPricing": "Preise ansehen",
     "videoTitle": "Sehen Sie, wie AiNiBo Bots funktionieren",
     "services": {
       "title": "🌐 AiNiBo Automatisierungs- und KI-Lösungen",
@@ -575,4 +577,3 @@
     ]
   }
 }
-

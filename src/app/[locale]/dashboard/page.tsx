@@ -16,7 +16,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#07111C] text-white pl-0 pr-6 md:pl-0 md:pr-10 py-12">
+    <div className="min-h-screen bg-[#07111C] text-white px-6 md:px-10 py-12">
       <div className="flex flex-col items-start md:items-start w-full max-w-[1000px] md:pl-0 lg:pl-0">
         {/* Header */}
         <div className="max-w-3xl mt-8 md:mt-0 mb-12">

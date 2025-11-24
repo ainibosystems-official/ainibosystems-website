@@ -8,7 +8,7 @@ import { useLanguageContext } from "@/contexts/LanguageContext";
 
 export default function WorkflowDetails() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const { t } = useLanguageContext();
+  const { t, lang } = useLanguageContext();
 
   // ✅ Close modal on ESC key
   useEffect(() => {
@@ -48,9 +48,8 @@ export default function WorkflowDetails() {
         {bots.map((bot: any, i: number) => (
           <div
             key={i}
-            className={`flex flex-col lg:flex-row items-center gap-16 ${
-              i % 2 === 1 ? "lg:flex-row-reverse" : ""
-            }`}
+            className={`flex flex-col lg:flex-row items-center gap-16 ${i % 2 === 1 ? "lg:flex-row-reverse" : ""
+              }`}
           >
             {/* Text block */}
             <div className="flex-1">
@@ -60,14 +59,28 @@ export default function WorkflowDetails() {
               >
                 {bot.title}
               </h3>
-              <p className="text-gray-300 leading-relaxed text-lg">{bot.desc}</p>
+
+              <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                {bot.desc}
+              </p>
+
+              {/* 🔹 Pricing Button (always centered) */}
+              <div className="flex justify-center mt-4">
+                <a
+                  href={`/${lang}/bots-and-prices`}
+                  className="inline-block bg-[#30C493] hover:bg-[#2370BC] 
+               text-white font-medium py-2 px-6 rounded-xl 
+               transition-all duration-200 text-center"
+                >
+                  {t.workflowDetails.ctaPricing}
+                </a>
+              </div>
             </div>
 
             {/* Images */}
             <div
-              className={`flex flex-wrap justify-center gap-6 flex-1 ${
-                bot.singleImage ? "lg:justify-start" : ""
-              }`}
+              className={`flex flex-wrap justify-center gap-6 flex-1 ${bot.singleImage ? "lg:justify-start" : ""
+                }`}
             >
               {bot.images.map((src: string, idx: number) => (
                 <button
@@ -130,9 +143,8 @@ export default function WorkflowDetails() {
         {t.workflowDetails.services.cards.map((card: any, i: number) => (
           <div
             key={i}
-            className={`border-l-4 pl-6 ${
-              i % 2 === 0 ? "border-[#30C493]/60" : "border-[#2370BC]/60"
-            }`}
+            className={`border-l-4 pl-6 ${i % 2 === 0 ? "border-[#30C493]/60" : "border-[#2370BC]/60"
+              }`}
           >
             <h4 className="text-2xl font-semibold mb-2" style={{ color: card.color }}>
               {card.title}

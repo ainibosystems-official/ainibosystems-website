@@ -103,18 +103,28 @@ export default function BotsSection() {
               </h3>
               <p className="text-gray-300 mb-6">{bot.description}</p>
 
-              {/* ✅ Dynamic multilingual button link */}
-              <a
-                href={`/${lang}/workflow#workflow-details`}
-                onClick={(e) =>
-                  handleWorkflowClick(e, "workflow-details")
-                }
-                className="bg-[#2370BC] hover:bg-[#30C493] 
-                           text-white font-medium py-2 px-6 rounded-xl 
-                           transition-all duration-200 inline-block"
-              >
-                {t.bots.cta}
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4">
+                {/* Existing button → Workflow */}
+                <a
+                  href={`/${lang}/workflow#workflow-details`}
+                  onClick={(e) => handleWorkflowClick(e, "workflow-details")}
+                  className="bg-[#2370BC] hover:bg-[#30C493] 
+               text-white font-medium py-2 px-6 rounded-xl 
+               transition-all duration-200 inline-block text-center"
+                >
+                  {t.bots.cta}
+                </a>
+
+                {/* New pricing button */}
+                <a
+                  href={`/${lang}/bots-and-prices`}
+                  className="bg-[#30C493] hover:bg-[#2370BC] 
+               text-white font-medium py-2 px-6 rounded-xl 
+               transition-all duration-200 inline-block text-center"
+                >
+                  {t.bots.ctaPricing}
+                </a>
+              </div>
             </div>
           </motion.div>
         ))}

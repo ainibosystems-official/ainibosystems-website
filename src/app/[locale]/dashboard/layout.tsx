@@ -49,7 +49,7 @@ export default function DashboardLayout({
 
   return (
     <div className="min-h-screen flex bg-[#07111C] text-white">
-      {/* Sidebar */}
+      {/* Desktop Sidebar */}
       <aside className="hidden md:flex flex-col w-64 p-6 border-r border-[#15304D] bg-[#0A1423] shadow-[0_0_25px_rgba(0,255,170,0.05)]">
         <h2 className="text-2xl font-semibold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-300 text-center drop-shadow-md">
           AiNiBo Systems
@@ -62,11 +62,10 @@ export default function DashboardLayout({
               <Link
                 key={item.href}
                 href={item.href}
-                className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                  active
-                    ? "bg-gradient-to-r from-blue-500 to-green-400 text-white shadow-[0_0_15px_rgba(0,255,180,0.3)]"
-                    : "text-gray-400 hover:text-white hover:bg-[#0F2237]"
-                }`}
+                className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${active
+                  ? "bg-gradient-to-r from-blue-500 to-green-400 text-white shadow-[0_0_15px_rgba(0,255,180,0.3)]"
+                  : "text-gray-400 hover:text-white hover:bg-[#0F2237]"
+                  }`}
               >
                 {item.label}
               </Link>
@@ -90,7 +89,26 @@ export default function DashboardLayout({
 
       {/* Main Content */}
       <main className="flex-1 flex justify-center md:justify-start px-4 md:px-6 py-10 transition-all duration-300">
-        <div className="w-full max-w-4xl">{children}</div>
+        <div className="w-full max-w-4xl">
+
+          {children}
+
+          {/* Mobile Logged-in Info (visible on all dashboard pages) */}
+          <div className="md:hidden w-full mt-10 mb-6 p-4 rounded-xl bg-[#0A1423] border border-[#15304D] shadow-lg flex flex-col items-center text-center">
+            <span className="text-sm text-gray-300 mb-3">
+              {t.dashboardLayout.loggedInAs}
+              <br />
+              <span className="text-blue-300 font-semibold">{user.email}</span>
+            </span>
+
+            <button
+              onClick={handleLogout}
+              className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:from-red-400 hover:to-red-500 transition-all shadow-[0_0_15px_rgba(255,0,0,0.3)]"
+            >
+              {t.dashboardLayout.logout}
+            </button>
+          </div>
+        </div>
       </main>
     </div>
   );

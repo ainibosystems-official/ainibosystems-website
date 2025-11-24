@@ -78,7 +78,8 @@
         "description": "Train before you trade. Our Paper Bot mirrors real-market conditions with full analytics and zero risk — perfect for testing strategies or learning the system."
       }
     ],
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "ctaPricing": "See Prices"
   },
   "contact": {
     "title": "Get in Touch with AiNiBo Systems",
@@ -214,6 +215,7 @@
         "singleImage": true
       }
     ],
+    "ctaPricing": "See Prices",
     "videoTitle": "See the AiNiBo Bots in Action",
     "services": {
       "title": "🌐 AiNiBo Automation & AI Solutions",
