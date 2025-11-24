@@ -13,3 +13,4 @@ export default function AreWeHiringLayout({
   // ✅ Do NOT include <html> or <body> tags here
   return <>{children}</>;
 }
+
