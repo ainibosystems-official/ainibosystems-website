@@ -8,9 +8,6 @@ import AnalyticsLoader from "@/components/AnalyticsLoader";
 import CookiebotLoader from "@/components/CookiebotLoader";
 import { metadata as siteMetadata } from "../metadata";
 
-// 🧩 Added for authentication
-import { SessionProvider } from "@/contexts/SessionProvider";
-
 export const metadata = siteMetadata;
 export const dynamicParams = true;
 
@@ -49,12 +46,9 @@ export default async function LocaleLayout({
       </head>
 
       <body className="relative min-h-screen text-white bg-[#07111C] pattern-tech">
-        {/* ✅ SessionProvider wraps all client-side UI */}
-        <SessionProvider>
-          <NextIntlClientProvider locale={locale} messages={messages}>
-            <LayoutClientWrapper>{children}</LayoutClientWrapper>
-          </NextIntlClientProvider>
-        </SessionProvider>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <LayoutClientWrapper>{children}</LayoutClientWrapper>
+        </NextIntlClientProvider>
 
         {/* ✅ Load external scripts after UI */}
         <CookiebotLoader locale={locale} />

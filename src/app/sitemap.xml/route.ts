@@ -29,9 +29,9 @@ export async function GET(request: Request) {
       { loc: `${base}/de/are-we-hiring`, changefreq: "monthly", priority: "0.8" },
 
       // 🤖 Bots & Pricing pages
-      { loc: `${base}/en/bots-and-prices`, changefreq: "weekly", priority: "0.95" },
-      { loc: `${base}/bg/bots-and-prices`, changefreq: "weekly", priority: "0.95" },
-      { loc: `${base}/de/bots-and-prices`, changefreq: "weekly", priority: "0.95" },
+      { loc: `${base}/en/bots-and-pricing`, changefreq: "weekly", priority: "0.95" },
+      { loc: `${base}/bg/bots-and-pricing`, changefreq: "weekly", priority: "0.95" },
+      { loc: `${base}/de/bots-and-pricing`, changefreq: "weekly", priority: "0.95" },
     ];
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
