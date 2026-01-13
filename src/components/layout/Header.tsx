@@ -6,8 +6,6 @@ import { useRouter, usePathname } from "next/navigation";
 import { useLanguageContext } from "@/contexts/LanguageContext";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { useSession } from "@/contexts/SessionProvider";
-import { supabase } from "@/lib/supabaseClient";
 
 type HeaderProps = {
   onToggle: () => void;
@@ -18,7 +16,6 @@ export default function Header({ onToggle, isMenuOpen }: HeaderProps) {
   const router = useRouter();
   const pathname = usePathname();
   const { lang, setLang, t } = useLanguageContext();
-  const { user } = useSession();
 
   // ✅ Smooth scroll-hide logic
   const [showHeader, setShowHeader] = useState(true);
@@ -134,28 +131,6 @@ export default function Header({ onToggle, isMenuOpen }: HeaderProps) {
               </Link>
             );
           })}
-
-          {/* 🔐 Login / Dashboard Buttons */}
-          <div className="flex items-center ml-4">
-            {!user ? (
-              <Link
-                href={`/${lang}/login`}
-                className="bg-[#30C493] px-4 py-2 rounded-md text-sm font-semibold text-white hover:bg-[#25a97b] transition-colors duration-300"
-              >
-                {t.navbar.login || "Login"}
-              </Link>
-            ) : (
-              <div className="flex items-center gap-3">
-                <Link
-                  href={`/${lang}/dashboard`}
-                  className="bg-[#30C493] px-4 py-2 rounded-md text-sm font-semibold text-white hover:bg-[#25a97b] transition-colors duration-300"
-                >
-                  {t.navbar.dashboard || "Dashboard"}
-                </Link>
-              </div>
-            )}
-          </div>
-
 
           {/* 🌐 Language Buttons */}
           <div className="flex gap-2 text-sm font-thin ml-4">

@@ -11,6 +11,7 @@ export default function BotsAndPricesPage() {
   const { t, lang } = useLanguageContext();
   const router = useRouter();
   const pathname = usePathname();
+  
 
   const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();

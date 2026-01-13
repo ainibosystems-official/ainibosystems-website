@@ -5,8 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { useLanguageContext } from "@/contexts/LanguageContext";
-import { useSession } from "@/contexts/SessionProvider";
-import { supabase } from "@/lib/supabaseClient";
 
 type MobileMenuProps = {
   isOpen: boolean;
@@ -17,7 +15,6 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const router = useRouter();
   const pathname = usePathname();
   const { lang, setLang, t } = useLanguageContext();
-  const { user } = useSession();
 
   // Lock scroll when menu open
   useEffect(() => {
@@ -123,55 +120,6 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                   );
                 })}
               </nav>
-
-              {/* Auth Buttons & Dashboard links */}
-              <div className="flex flex-col items-center mt-10 gap-6 w-full">
-                {!user ? (
-                  <Link
-                    href={`/${lang}/login`}
-                    onClick={onClose}
-                    className="bg-[#30C493] px-8 py-4 rounded-xl font-semibold text-xl hover:bg-[#25a97b] transition-all duration-300 w-[80%] text-center"
-                  >
-                    {t.navbar.login || "Login"}
-                  </Link>
-                ) : (
-                  <>
-                    <Link
-                      href={`/${lang}/dashboard`}
-                      onClick={onClose}
-                      className="bg-[#30C493] px-8 py-4 rounded-xl font-semibold text-xl hover:bg-[#25a97b] transition-all duration-300 w-[80%] text-center"
-                    >
-                      {t.navbar.dashboard || "Dashboard"}
-                    </Link>
-
-                    {/* Dashboard sublinks */}
-                    <div className="flex flex-col items-center gap-4 mt-4 w-full">
-                      {dashboardLinks.map((item) => (
-                        <Link
-                          key={item.href}
-                          href={`/${lang}${item.href}`}
-                          onClick={onClose}
-                          className="text-white/90 text-lg font-medium hover:text-[#30C493] transition"
-                        >
-                          {t.dashboardLayout[item.key] || item.key}
-                        </Link>
-                      ))}
-
-                      {/* Logout button */}
-                      <button
-                        onClick={async () => {
-                          await supabase.auth.signOut();
-                          onClose();
-                          router.push(`/${lang}/login`);
-                        }}
-                        className="mt-6 text-red-400 text-lg font-semibold hover:text-red-500 transition"
-                      >
-                        {t.navbar.logout || "Logout"}
-                      </button>
-                    </div>
-                  </>
-                )}
-              </div>
 
               {/* Language Selector */}
               <div className="flex gap-6 mt-12 text-lg">
