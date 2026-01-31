@@ -10,6 +10,7 @@
     "contact": "Contact",
     "about": "About",
     "workflow": "Workflow",
+    "projects": "Projects",
     "pricing": "Bots & Prices",
     "hiring": "Are We Hiring?",
     "login": "Login",
@@ -575,5 +576,61 @@
         "description": "Full AI trading control with adaptive decision-making and multi-asset management — our most powerful tier yet."
       }
     ]
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Production-ready platforms designed, built, and operated as real businesses by AiNiBo Systems.",
+    "badgeBuiltOperated": "Built & operated by AiNiBo Systems",
+    "nibodom": {
+      "name": "NiBoDom",
+      "tagline": "Property & Airbnb Management Platform",
+      "intro": "NiBoDom is a complete property management brand created for property owners who want reliable income without being involved in daily operational stress. The platform is built around trust, clarity, and long-term care, allowing owners to step back while their property is professionally managed as a real business.",
+      "challenge": {
+        "title": "The Challenge",
+        "text": "Many property owners struggle with fragmented services, unreliable contractors, unclear responsibilities, and constant communication issues. Managing rentals remotely often leads to stress, lost time, and uncertainty about the long-term condition of the property."
+      },
+      "solution": {
+        "title": "Our Solution",
+        "text": "We designed NiBoDom as a full-service operational brand — not just a website. The focus was on clear service structure, transparent communication, and trust-driven messaging, supported by a systemized management approach that works in real-world conditions."
+      },
+      "deliverables": {
+        "title": "What We Delivered",
+        "items": [
+          "Complete brand identity and positioning",
+          "Multi-language, conversion-focused website",
+          "Clear service structure and information architecture",
+          "Lead generation and consultation workflows",
+          "Scalable foundation for long-term operational growth"
+        ]
+      },
+      "cta": "Visit NiBoDom"
+    },
+    "nibofix": {
+      "name": "NiBoFix",
+      "tagline": "Home Care, Renovation & Cleaning Services",
+      "intro": "NiBoFix is a service-driven platform designed to turn professional home services into a clear, transparent, and scalable brand. It focuses on reliability, clarity, and ease of use — both for customers and for future operational growth.",
+      "challenge": {
+        "title": "The Challenge",
+        "text": "Local home service businesses often suffer from unclear pricing, inconsistent presentation, and low customer trust. This leads to friction, misunderstandings, and difficulty scaling beyond small, manual operations."
+      },
+      "solution": {
+        "title": "Our Solution",
+        "text": "We built NiBoFix as a structured service system with transparent pricing logic, clearly defined services, and a strong brand presence. The platform is designed to reduce friction, build trust, and support efficient service delivery."
+      },
+      "deliverables": {
+        "title": "What We Delivered",
+        "items": [
+          "Brand-focused website and visual identity",
+          "Structured service catalog with pricing logic",
+          "Dynamic service and pricing calculators",
+          "Conversion-oriented user experience",
+          "Solid foundation for operational scaling"
+        ]
+      },
+      "cta": "Visit NiBoFix"
+    },
+    "finalCtaTitle": "Want a system like this?",
+    "finalCtaText": "We don’t just build websites. We design, build, and launch complete business systems that work in real conditions and are built to grow with your goals.",
+    "finalCtaButton": "Let’s build yours"
   }
 }

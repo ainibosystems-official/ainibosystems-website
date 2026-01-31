@@ -57,6 +57,7 @@ export default function Header({ onToggle, isMenuOpen }: HeaderProps) {
     { href: "/#Contact", label: t.navbar.contact },
     { href: "/#About", label: t.navbar.about },
     { href: "/workflow", label: t.navbar.workflow },
+    { href: "/projects", label: t.navbar.projects },
     { href: "/bots-and-prices", label: t.navbar.pricing },
     { href: "/are-we-hiring", label: t.navbar.hiring },
   ];
@@ -109,7 +110,7 @@ export default function Header({ onToggle, isMenuOpen }: HeaderProps) {
         </div>
 
         {/* ✅ Tablet/Desktop Menu */}
-        <nav className="hidden md:flex items-center gap-3 text-white text-sm lg:text-base font-medium">
+        <nav className="hidden lg:flex items-center gap-3 text-white text-sm lg:text-base font-medium">
           {navItems.map((item) => {
             const localizedHref = item.href.startsWith("/#")
               ? item.href
@@ -162,7 +163,7 @@ export default function Header({ onToggle, isMenuOpen }: HeaderProps) {
         <button
           onClick={onToggle}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="md:hidden relative w-8 h-8 flex flex-col justify-center items-center group"
+          className="lg:hidden relative w-8 h-8 flex flex-col justify-center items-center group"
         >
           <span
             className={`absolute h-[2px] w-6 bg-white rounded transition-all duration-300 ${isMenuOpen ? "rotate-45 translate-y-[0px]" : "-translate-y-[6px]"

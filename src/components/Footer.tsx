@@ -51,6 +51,7 @@ export default function Footer() {
     { href: "/#Contact", label: t.navbar.contact },
     { href: "/#About", label: t.navbar.about },
     { href: "/workflow", label: t.navbar.workflow },
+    { href: "/projects", label: t.navbar.projects },
     { href: "/bots-and-prices", label: t.navbar.pricing },
     { href: "/are-we-hiring", label: t.navbar.hiring },
   ];

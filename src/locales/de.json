@@ -10,6 +10,7 @@
     "contact": "Kontakt",
     "about": "Über uns",
     "workflow": "Arbeitsablauf",
+    "projects": "Projekte",
     "pricing": "Bots & Preise",
     "hiring": "Stellenangebote",
     "login": "Anmelden",
@@ -575,5 +576,61 @@
         "description": "Vollständige KI-Handelskontrolle mit adaptiven Entscheidungen und Multi-Asset-Management – unser leistungsstärkstes Paket."
       }
     ]
+  },
+  "projects": {
+    "title": "Unsere Projekte",
+    "subtitle": "Produktionsreife Plattformen, aufgebaut als echte Geschäftsmodelle – konzipiert, entwickelt und betrieben von AiNiBo Systems.",
+    "badgeBuiltOperated": "Entwickelt und betrieben von AiNiBo Systems",
+    "nibodom": {
+      "name": "NiBoDom",
+      "tagline": "Immobilien- und Airbnb-Verwaltung",
+      "intro": "NiBoDom ist eine ganzheitliche Immobilienverwaltungsmarke für Eigentümer, die stabile Einnahmen erzielen möchten, ohne sich täglich um operative Details kümmern zu müssen. Der Fokus liegt auf Vertrauen, Klarheit und langfristiger Betreuung.",
+      "challenge": {
+        "title": "Die Herausforderung",
+        "text": "Viele Immobilieneigentümer kämpfen mit fragmentierten Dienstleistungen, unklarer Kommunikation, fehlender Verantwortung und mangelndem Vertrauen – insbesondere bei der Verwaltung aus der Ferne."
+      },
+      "solution": {
+        "title": "Unsere Lösung",
+        "text": "Wir haben NiBoDom als vollständige operative Marke aufgebaut – nicht nur als Website. Der Schwerpunkt liegt auf klarer Service-Struktur, transparenter Kommunikation und einem systematischen Ansatz, der im Alltag funktioniert."
+      },
+      "deliverables": {
+        "title": "Was wir umgesetzt haben",
+        "items": [
+          "Markenidentität und klare Positionierung",
+          "Mehrsprachige, conversionsorientierte Website",
+          "Strukturierte Service- und Informationsarchitektur",
+          "Prozesse für Anfragen und Beratung",
+          "Skalierbare Grundlage für langfristiges Wachstum"
+        ]
+      },
+      "cta": "NiBoDom besuchen"
+    },
+    "nibofix": {
+      "name": "NiBoFix",
+      "tagline": "Haushaltsservice, Renovierung & Reinigung",
+      "intro": "NiBoFix ist eine serviceorientierte Plattform, die professionelle Handwerks- und Reinigungsleistungen in eine klare, vertrauenswürdige und skalierbare Marke verwandelt.",
+      "challenge": {
+        "title": "Die Herausforderung",
+        "text": "Lokale Dienstleistungsunternehmen leiden häufig unter unklarer Preisgestaltung, schwacher Präsentation und geringem Kundenvertrauen."
+      },
+      "solution": {
+        "title": "Unsere Lösung",
+        "text": "Wir haben NiBoFix als strukturiertes Service-System mit transparenter Preislogik, klaren Leistungen und starker Markenpräsenz entwickelt."
+      },
+      "deliverables": {
+        "title": "Was wir umgesetzt haben",
+        "items": [
+          "Markenorientiertes Webdesign",
+          "Strukturierter Leistungskatalog mit Preislogik",
+          "Dynamische Service- und Preisrechner",
+          "Conversion-optimierte Benutzerführung",
+          "Grundlage für operative Skalierung"
+        ]
+      },
+      "cta": "NiBoFix besuchen"
+    },
+    "finalCtaTitle": "Möchten Sie ein System wie dieses?",
+    "finalCtaText": "Wir bauen nicht einfach Websites. Wir entwickeln, starten und betreiben vollständige Geschäftssysteme, die im echten Alltag funktionieren und mit Ihrem Unternehmen wachsen.",
+    "finalCtaButton": "Lassen Sie uns Ihres bauen"
   }
 }
