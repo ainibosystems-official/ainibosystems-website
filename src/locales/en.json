@@ -575,12 +575,12 @@
         "title": "Pro Bot",
         "description": "Full AI trading control with adaptive decision-making and multi-asset management — our most powerful tier yet."
       }
-    ]
   },
   "projects": {
     "title": "Our Projects",
     "subtitle": "Production-ready platforms designed, built, and operated as real businesses by AiNiBo Systems.",
     "badgeBuiltOperated": "Built & operated by AiNiBo Systems",
+  
     "nibodom": {
       "name": "NiBoDom",
       "tagline": "Property & Airbnb Management Platform",
@@ -604,58 +604,59 @@
         ]
       },
       "cta": "Visit NiBoDom"
+    },
+  
+    "nibofix": {
+      "name": "NiBoFix",
+      "tagline": "Home Care, Renovation & Cleaning Services",
+      "intro": "NiBoFix is a service-driven platform designed to turn professional home services into a clear, transparent, and scalable brand. It focuses on reliability, clarity, and ease of use — both for customers and for future operational growth.",
+      "challenge": {
+        "title": "The Challenge",
+        "text": "Local home service businesses often suffer from unclear pricing, inconsistent presentation, and low customer trust. This leads to friction, misunderstandings, and difficulty scaling beyond small, manual operations."
       },
-      "nibofix": {
-        "name": "NiBoFix",
-        "tagline": "Home Care, Renovation & Cleaning Services",
-        "intro": "NiBoFix is a service-driven platform designed to turn professional home services into a clear, transparent, and scalable brand. It focuses on reliability, clarity, and ease of use — both for customers and for future operational growth.",
-        "challenge": {
-          "title": "The Challenge",
-          "text": "Local home service businesses often suffer from unclear pricing, inconsistent presentation, and low customer trust. This leads to friction, misunderstandings, and difficulty scaling beyond small, manual operations."
-        },
-        "solution": {
-          "title": "Our Solution",
-          "text": "We built NiBoFix as a structured service system with transparent pricing logic, clearly defined services, and a strong brand presence. The platform is designed to reduce friction, build trust, and support efficient service delivery."
-        },
-        "deliverables": {
-          "title": "What We Delivered",
-          "items": [
-            "Brand-focused website and visual identity",
-            "Structured service catalog with pricing logic",
-            "Dynamic service and pricing calculators",
-            "Conversion-oriented user experience",
-            "Solid foundation for operational scaling"
-          ]
-        },
-        "cta": "Visit NiBoFix"
+      "solution": {
+        "title": "Our Solution",
+        "text": "We built NiBoFix as a structured service system with transparent pricing logic, clearly defined services, and a strong brand presence. The platform is designed to reduce friction, build trust, and support efficient service delivery."
       },
-      
-      "atelie": {
-        "name": "Atelier of Emotions",
-        "tagline": "Psychology Practice & Educational Platform",
-        "intro": "Atelier of Emotions is a complete psychology platform created for children, parents, and families seeking professional emotional support. The project combines psychological services, educational content, courses, products, and resources into a single modern digital experience.",
-        "challenge": {
-          "title": "The Challenge",
-          "text": "Many psychology websites are difficult to navigate, visually outdated, and fail to create trust or emotional connection with visitors. Parents often struggle to quickly find the information, services, or support they need."
-        },
-        "solution": {
-          "title": "Our Solution",
-          "text": "We designed and developed a custom platform focused on warmth, trust, accessibility, and user experience. The website combines professional presentation, educational resources, online products, and future course delivery within a unified ecosystem."
-        },
-        "deliverables": {
-          "title": "What We Delivered",
-          "items": [
-            "Custom-designed psychology website",
-            "Responsive mobile-first user experience",
-            "Service presentation and consultation system",
-            "Educational products and online shop integration",
-            "Foundation for future courses and digital resources"
-          ]
-        },
-        "cta": "Visit Psychologist Dzhulia Bozhidarova"
+      "deliverables": {
+        "title": "What We Delivered",
+        "items": [
+          "Brand-focused website and visual identity",
+          "Structured service catalog with pricing logic",
+          "Dynamic service and pricing calculators",
+          "Conversion-oriented user experience",
+          "Solid foundation for operational scaling"
+        ]
       },
-      
-      "finalCtaTitle": "Want a system like this?",
-      "finalCtaText": "We don’t just build websites. We design, build, and launch complete business systems that work in real conditions and are built to grow with your goals.",
-      "finalCtaButton": "Let’s build yours"
+      "cta": "Visit NiBoFix"
+    },
+  
+    "atelie": {
+      "name": "Atelier of Emotions",
+      "tagline": "Psychology Practice & Educational Platform",
+      "intro": "Atelier of Emotions is a complete psychology platform created for children, parents, and families seeking professional emotional support. The project combines psychological services, educational content, courses, products, and resources into a single modern digital experience.",
+      "challenge": {
+        "title": "The Challenge",
+        "text": "Many psychology websites are difficult to navigate, visually outdated, and fail to create trust or emotional connection with visitors. Parents often struggle to quickly find the information, services, or support they need."
+      },
+      "solution": {
+        "title": "Our Solution",
+        "text": "We designed and developed a custom platform focused on warmth, trust, accessibility, and user experience. The website combines professional presentation, educational resources, online products, and future course delivery within a unified ecosystem."
+      },
+      "deliverables": {
+        "title": "What We Delivered",
+        "items": [
+          "Custom-designed psychology website",
+          "Responsive mobile-first user experience",
+          "Service presentation and consultation system",
+          "Educational products and online shop integration",
+          "Foundation for future courses and digital resources"
+        ]
+      },
+      "cta": "Visit Psychologist Dzhulia Bozhidarova"
+    },
+  
+    "finalCtaTitle": "Want a system like this?",
+    "finalCtaText": "We don’t just build websites. We design, build, and launch complete business systems that work in real conditions and are built to grow with your goals.",
+    "finalCtaButton": "Let’s build yours"
   }
