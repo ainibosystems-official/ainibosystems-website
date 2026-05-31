@@ -632,33 +632,33 @@
     "finalCtaTitle": "Want a system like this?",
     "finalCtaText": "We don’t just build websites. We design, build, and launch complete business systems that work in real conditions and are built to grow with your goals.",
     "finalCtaButton": "Let’s build yours"
-  },
-  "atelie": {
-    "name": "Atelier of Emotions",
-    "tagline": "Psychology Practice & Educational Platform",
-    "intro": "Atelier of Emotions is a complete psychology platform created for children, parents, and families seeking professional emotional support. The project combines psychological services, educational content, courses, products, and resources into a single modern digital experience.",
-    "challenge": {
-      "title": "The Challenge",
-      "text": "Many psychology websites are difficult to navigate, visually outdated, and fail to create trust or emotional connection with visitors. Parents often struggle to quickly find the information, services, or support they need."
     },
-    "solution": {
-      "title": "Our Solution",
-      "text": "We designed and developed a custom platform focused on warmth, trust, accessibility, and user experience. The website combines professional presentation, educational resources, online products, and future course delivery within a unified ecosystem."
+    "atelie": {
+      "name": "Atelier of Emotions",
+      "tagline": "Psychology Practice & Educational Platform",
+      "intro": "Atelier of Emotions is a complete psychology platform created for children, parents, and families seeking professional emotional support. The project combines psychological services, educational content, courses, products, and resources into a single modern digital experience.",
+      "challenge": {
+        "title": "The Challenge",
+        "text": "Many psychology websites are difficult to navigate, visually outdated, and fail to create trust or emotional connection with visitors. Parents often struggle to quickly find the information, services, or support they need."
+      },
+      "solution": {
+        "title": "Our Solution",
+        "text": "We designed and developed a custom platform focused on warmth, trust, accessibility, and user experience. The website combines professional presentation, educational resources, online products, and future course delivery within a unified ecosystem."
+      },
+      "deliverables": {
+        "title": "What We Delivered",
+        "items": [
+          "Custom-designed psychology website",
+          "Responsive mobile-first user experience",
+          "Service presentation and consultation system",
+          "Educational products and online shop integration",
+          "Foundation for future courses and digital resources"
+        ]
+      },
+      "cta": "Visit Psychologist Dzhulia Bozhidarova"
     },
-    "deliverables": {
-      "title": "What We Delivered",
-      "items": [
-        "Custom-designed psychology website",
-        "Responsive mobile-first user experience",
-        "Service presentation and consultation system",
-        "Educational products and online shop integration",
-        "Foundation for future courses and digital resources"
-      ]
-    },
-    "cta": "Visit Psychologist Dzhulia Bozhidarova"
-  },
-
-  "finalCtaTitle": "Want a system like this?",
-  "finalCtaText": "We don’t just build websites. We design, build, and launch complete business systems that work in real conditions and are built to grow with your goals.",
-  "finalCtaButton": "Let’s build yours"
-}
+  
+    "finalCtaTitle": "Want a system like this?",
+    "finalCtaText": "We don’t just build websites. We design, build, and launch complete business systems that work in real conditions and are built to grow with your goals.",
+    "finalCtaButton": "Let’s build yours"
+  }
