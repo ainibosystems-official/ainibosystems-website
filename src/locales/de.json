@@ -629,6 +629,30 @@
       },
       "cta": "NiBoFix besuchen"
     },
+    "atelie": {
+      "name": "Atelier der Emotionen",
+      "tagline": "Psychologische Praxis und Bildungsplattform",
+      "intro": "Atelier der Emotionen ist eine umfassende psychologische Plattform für Kinder, Eltern und Familien, die professionelle emotionale Unterstützung suchen. Das Projekt vereint psychologische Dienstleistungen, Bildungsinhalte, Kurse, Produkte und hilfreiche Ressourcen in einer modernen digitalen Umgebung.",
+      "challenge": {
+        "title": "Die Herausforderung",
+        "text": "Viele Webseiten von Psychologen sind schwer zu navigieren, optisch veraltet und schaffen weder Vertrauen noch eine emotionale Verbindung zu den Besuchern. Eltern haben oft Schwierigkeiten, schnell die benötigten Informationen oder Unterstützung zu finden."
+      },
+      "solution": {
+        "title": "Unsere Lösung",
+        "text": "Wir haben eine vollständig individuelle Plattform entwickelt, die auf Vertrauen, Wärme, Benutzerfreundlichkeit und Zugänglichkeit ausgerichtet ist. Die Website kombiniert professionelle Präsentation, Bildungsressourcen, Online-Produkte und zukünftige Kursangebote in einem einheitlichen System."
+      },
+      "deliverables": {
+        "title": "Unsere Leistungen",
+        "items": [
+          "Individuell entwickelte Website für eine psychologische Praxis",
+          "Responsives Mobile-First Design",
+          "System zur Präsentation von Dienstleistungen und Beratungen",
+          "Integration von Online-Shop und Bildungsprodukten",
+          "Grundlage für zukünftige Kurse und digitale Inhalte"
+        ]
+      },
+      "cta": "Die Psychologin Dzhulia Bozhidarova Besuchen"
+    },
     "finalCtaTitle": "Möchten Sie ein System wie dieses?",
     "finalCtaText": "Wir bauen nicht einfach Websites. Wir entwickeln, starten und betreiben vollständige Geschäftssysteme, die im echten Alltag funktionieren und mit Ihrem Unternehmen wachsen.",
     "finalCtaButton": "Lassen Sie uns Ihres bauen"
