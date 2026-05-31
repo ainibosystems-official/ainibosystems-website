@@ -75,6 +75,126 @@ export default function ProjectsPage() {
       </section>
 
       {/* =========================
+    ATELIE
+========================= */}
+      <motion.section
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: true }}
+        className="grid md:grid-cols-2 gap-16 items-start pt-16 md:pt-20 mb-32 px-6 sm:px-10 lg:px-24"
+      >
+        {/* Image */}
+        <div className="relative max-w-md mx-auto group">
+          <div
+            className="
+        absolute
+        inset-0
+        rounded-2xl
+        bg-gradient-to-r from-[#30C493]/60 to-[#2370BC]/60
+        blur-2xl
+        opacity-50
+        transition-all
+        duration-500
+        ease-out
+        group-hover:opacity-90
+        group-hover:blur-3xl
+        group-hover:scale-105
+        pointer-events-none
+      "
+          />
+
+          <div
+            className="
+        relative
+        rounded-2xl
+        overflow-hidden
+        shadow-2xl
+        transition-transform
+        duration-500
+        ease-out
+        group-hover:-translate-y-1
+      "
+          >
+            <Image
+              src="/images/projects/atelie-preview.png"
+              alt={t.projects.atelie.name}
+              width={1600}
+              height={900}
+              className="object-cover w-full h-auto"
+            />
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="relative pl-6">
+          <div className="absolute left-0 top-0 bottom-0 w-px bg-white/10" />
+
+          <span className="inline-block text-xs uppercase tracking-wider bg-white/10 px-3 py-1 rounded-full text-[#30C493] mb-4">
+            {t.projects.badgeBuiltOperated}
+          </span>
+
+          <h2 className="text-3xl font-semibold mb-1">
+            {t.projects.atelie.name}
+          </h2>
+
+          <div className="w-12 h-[2px] bg-gradient-to-r from-[#30C493] to-[#2370BC] mb-4" />
+
+          <p className="text-sm text-gray-400 mb-6">
+            {t.projects.atelie.tagline}
+          </p>
+
+          <p className="text-gray-300 mb-6">
+            {t.projects.atelie.intro}
+          </p>
+
+          <h3 className="font-semibold mb-2">
+            {t.projects.atelie.challenge.title}
+          </h3>
+
+          <p className="text-gray-300 mb-5">
+            {t.projects.atelie.challenge.text}
+          </p>
+
+          <h3 className="font-semibold mb-2">
+            {t.projects.atelie.solution.title}
+          </h3>
+
+          <p className="text-gray-300 mb-6">
+            {t.projects.atelie.solution.text}
+          </p>
+
+          <h3 className="font-semibold mb-3">
+            {t.projects.atelie.deliverables.title}
+          </h3>
+
+          <ul className="text-gray-300 mb-8 space-y-2">
+            {t.projects.atelie.deliverables.items.map(
+              (item: string, i: number) => (
+                <li key={i} className="flex gap-2">
+                  <span className="text-[#30C493]">▸</span>
+                  <span>{item}</span>
+                </li>
+              )
+            )}
+          </ul>
+
+          <Link
+            href="https://psiholog-dzhuliabozhidarova.com"
+            target="_blank"
+            className="inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-[#30C493] to-[#2370BC] font-medium hover:opacity-90 transition"
+          >
+            {t.projects.atelie.cta}
+          </Link>
+        </div>
+      </motion.section>
+
+      {/* Divider */}
+      <div className="my-40 flex justify-center">
+        <div className="h-px w-2/3 bg-gradient-to-r from-transparent via-[#30C493]/30 to-transparent" />
+      </div>
+
+      {/* =========================
           NIBODOM
       ========================= */}
       <motion.section
