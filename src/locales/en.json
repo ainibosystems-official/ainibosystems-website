@@ -575,12 +575,12 @@
         "title": "Pro Bot",
         "description": "Full AI trading control with adaptive decision-making and multi-asset management — our most powerful tier yet."
       }
+    ]
   },
   "projects": {
     "title": "Our Projects",
     "subtitle": "Production-ready platforms designed, built, and operated as real businesses by AiNiBo Systems.",
     "badgeBuiltOperated": "Built & operated by AiNiBo Systems",
-  
     "nibodom": {
       "name": "NiBoDom",
       "tagline": "Property & Airbnb Management Platform",
@@ -605,7 +605,6 @@
       },
       "cta": "Visit NiBoDom"
     },
-  
     "nibofix": {
       "name": "NiBoFix",
       "tagline": "Home Care, Renovation & Cleaning Services",
@@ -630,7 +629,6 @@
       },
       "cta": "Visit NiBoFix"
     },
-  
     "atelie": {
       "name": "Atelier of Emotions",
       "tagline": "Psychology Practice & Educational Platform",
@@ -653,10 +651,10 @@
           "Foundation for future courses and digital resources"
         ]
       },
-      "cta": "Visit Psychologist Dzhulia Bozhidarova"
+      "cta": "Visit Atelier of Emotions"
     },
-  
     "finalCtaTitle": "Want a system like this?",
     "finalCtaText": "We don’t just build websites. We design, build, and launch complete business systems that work in real conditions and are built to grow with your goals.",
     "finalCtaButton": "Let’s build yours"
   }
+}
