@@ -85,7 +85,7 @@ export default function ProjectsPage() {
         className="grid md:grid-cols-2 gap-16 items-start pt-16 md:pt-20 mb-32 px-6 sm:px-10 lg:px-24"
       >
         {/* Image */}
-        <div className="relative max-w-md mx-auto group">
+        <div className="relative max-w-md mx-auto md:order-2 group">
           <div
             className="
         absolute
@@ -127,8 +127,8 @@ export default function ProjectsPage() {
         </div>
 
         {/* Content */}
-        <div className="relative pl-6">
-          <div className="absolute left-0 top-0 bottom-0 w-px bg-white/10" />
+        <div className="relative pr-6 md:order-1">
+          <div className="absolute right-0 top-0 bottom-0 w-px bg-white/10" />
 
           <span className="inline-block text-xs uppercase tracking-wider bg-white/10 px-3 py-1 rounded-full text-[#30C493] mb-4">
             {t.projects.badgeBuiltOperated}
